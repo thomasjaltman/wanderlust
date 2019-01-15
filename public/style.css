@@ -1,5 +1,5 @@
 main {
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/wanderlust/background_photo_desktop.jpg');
   background-size: cover;
@@ -76,8 +76,38 @@ form {
   letter-spacing: 0.9px;
   text-align: left;
   color: #27b7c1;
+  margin-bottom: 30px;
+}
+
+#venues {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: 150px;
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+  justify-items: center;
+}
+
+.venue {
+  width: 200px;
+  border: 1px solid black;
 }
 
 .container {
-  visibility: hidden;
+  visibility: visible;
+}
+
+.sectiontitle {
+  height: 70px;
+  width: 300px;
+  align-items: center;
+}
+
+.sectiontitle h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 3.4px;
+  text-align: left;
+  color: #4a4a4a;
 }
