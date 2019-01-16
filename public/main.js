@@ -5,6 +5,7 @@ const container = document.getElementsByClassName('container')[0];
 const form = document.getElementsByClassName('input-form')[0];
 const venuesDiv = document.getElementById('venues');
 
+
 // Foursquare API Info
 const clientId = '4BWCLT03DSVEW3SDJZTILC3KF3OW1A21FDLAQVJ4E10BX1UH';
 const clientSecret = 'AOUL5A1XBB0PUDESPXPMJDMJH34P3PMV3RL0AZF5SIWRERK5';
